@@ -27,6 +27,7 @@
 
 import StringIO
 import binascii
+import argparse
 import sys
 import os
 
@@ -116,7 +117,7 @@ def parse_segment(handle, segment_type_peek):
         }
 
 
-def parse_file(path):
+def parse_file(path, outdir):
     handle = open(path, 'rb')
 
     ch = handle.read(1)
@@ -131,11 +132,16 @@ def parse_file(path):
     data = parse_segments(handle)
     # import pprint; pprint.pprint(data)
     gene_name = os.path.basename(path)[:-4]
-    with open(gene_name + '.fasta', 'w') as outfile:
+    with open(os.path.join(outdir, gene_name + '.fasta'), 'w') as outfile:
         outfile.write('>' + gene_name.replace(' ', '_') + '\n')
         outfile.write(data['dna']['sequence'])
     handle.close()
 
 
 if __name__ == '__main__':
-    parse_file(sys.argv[1])
+    parser = argparse.ArgumentParser(description='convert .dna to .fasta')
+    parser.add_argument('dna', type=str, help='dna file')
+    parser.add_argument('outdir', type=str, help='output directory')
+    args = parser.parse_args()
+
+    parse_file(args.dna, args.outdir)
