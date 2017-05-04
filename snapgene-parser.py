@@ -28,6 +28,7 @@
 import StringIO
 import binascii
 import sys
+import os
 
 format_dictionary = {
     0: 'DNA',
@@ -128,7 +129,11 @@ def parse_file(path):
     assert ch == 'SnapGene'
 
     data = parse_segments(handle)
-    import pprint; pprint.pprint(data)
+    # import pprint; pprint.pprint(data)
+    gene_name = os.path.basename(path)[:-4]
+    with open(gene_name + '.fasta', 'w') as outfile:
+        outfile.write('>' + gene_name.replace(' ', '_') + '\n')
+        outfile.write(data['dna']['sequence'])
     handle.close()
 
 
