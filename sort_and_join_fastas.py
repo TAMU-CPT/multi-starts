@@ -19,9 +19,9 @@ def sort_and_join(path):
             else:
                 bad_starts.append(record)
 
-        with open(path + 'good_starts.fa', 'w') as good_starts_file:
+        with open('good_starts.fa', 'w') as good_starts_file:
             SeqIO.write(good_starts, good_starts_file, "fasta")
-        with open(path + 'bad_starts.fa', 'w') as bad_starts_file:
+        with open('bad_starts.fa', 'w') as bad_starts_file:
             SeqIO.write(bad_starts, bad_starts_file, "fasta")
 
 if __name__ == '__main__':
