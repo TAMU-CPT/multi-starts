@@ -42,7 +42,7 @@ def draw(recs):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Intron detection')
+    parser = argparse.ArgumentParser(description='output svgs for start sites')
     parser.add_argument('gff3', type=argparse.FileType("r"), help='gff3 file')
     args = parser.parse_args()
 
