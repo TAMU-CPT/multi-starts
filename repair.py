@@ -3,6 +3,7 @@
 import argparse
 from Bio import SeqIO
 from BCBio import GFF
+from Bio.Data import CodonTable
 import sys
 
 def get_CDS_and_SD(feat):
@@ -16,6 +17,18 @@ def get_CDS_and_SD(feat):
 
     return cds, sd
 
+def break_start(seq):
+    if seq == 'ATG':    # if methionine, no other option but ATG
+        return 'ATG'
+    elif seq == 'GTG':  # if valine, return GTA (still valine)
+        return 'GTA'
+    elif seq == 'TTG':  # if leucine, return TTA (still leucine)
+        return 'TTA'
+    # table = CodonTable.unambiguous_dna_by_id[11]
+
+def break_sd(sd):
+    pass
+
 def repair(fasta, gff3):
     recs = {}
     for record in GFF.parse(gff3):
@@ -25,10 +38,20 @@ def repair(fasta, gff3):
             continue
 
         if seq.id == 'GFP':
+            with open('test1.fa', 'w') as seqfile1:
+                SeqIO.write(seq, seqfile1, 'fasta')
             current = recs[seq.id]
             for feat in current.features:
                 cds, sd = get_CDS_and_SD(feat)
-                print cds.location.start, sd.location.start
+                start = seq.seq[cds.location.start:cds.location.start+3]
+                broken_start = break_start(start)
+                if start != broken_start:
+                    seq.seq = seq.seq[0:cds.location.start] + broken_start + seq.seq[cds.location.start+3:]
+                else:
+                    break_sd(sd)
+
+            with open('test.fa', 'w') as seqfile:
+                SeqIO.write(seq, seqfile, 'fasta')
 
 
 if __name__ == '__main__':
