@@ -11,10 +11,12 @@ def tableify(gff3, fasta):
         names[fasta_rec.id] = []
 
     for gff_rec in GFF.parse(gff3):
-        names[gff_rec.id].append(str(len(gff_rec.features) - 1))
+        names[gff_rec.id].append(str(len(gff_rec.features) - 1))  # number of internal starts
         starts = []
         for feat in gff_rec.features:
-            starts.append(str(feat.location.start + 1))
+            feat_start = (feat.location.start - 9) / 3 + 1
+            if feat_start is not 1:                               # start codon position of each internal start
+                starts.append(str(feat_start))
         names[gff_rec.id].append(starts)
 
     for n in sorted(names):
