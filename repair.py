@@ -62,7 +62,7 @@ def repair(fasta, gff3):
             else:
                 # if couldn't change start, must break SD
                 break_sd(sd)
-            seqs.append(seq)
+        seqs.append(seq)
 
     with open('out.fa', 'w') as seqfile:
         SeqIO.write(seqs, seqfile, 'fasta')
