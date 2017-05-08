@@ -9,7 +9,7 @@ from BCBio import GFF
 def draw(recs):
     for i, rec in enumerate(list(recs)):
         height = 30 + 15*(len(list(rec.features)))
-        dwg = svgwrite.Drawing(filename='svgs/'+ rec.id + '.svg', size=("1500px", "%spx" % height), debug=True)
+        dwg = svgwrite.Drawing(filename='fluorescent_gene_svgs/fixed_starts/'+ rec.id + '.svg', size=("1500px", "%spx" % height), debug=True)
         genes = dwg.add(dwg.g(id='genes', fill='white'))
 
         y = 10
