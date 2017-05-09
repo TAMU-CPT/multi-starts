@@ -22,9 +22,10 @@ def get_CDS_and_SD(feat):
 
 def break_start(seq):
     """
-        change the start sequence while keeping the same
-        amino acid translation, if possible
+        if possible, change the start sequence
+        while keeping the same amino acid translation
     """
+    seq = seq.upper()
     if seq == 'ATG':    # if methionine, no other option but ATG
         return 'ATG'
     elif seq == 'GTG':  # if valine, return GTA (still valine)
@@ -33,8 +34,19 @@ def break_start(seq):
         return 'TTA'
 
 def break_sd(sd):
+    """
+        if possible, change the SD sequence
+        while keeping the same amino acid translation
+    """
     # table = CodonTable.unambiguous_dna_by_id[11]
-    pass
+    print sd
+
+def next_first_frame(start, mod_pos):
+    """ return position of next nucleotide in frame 1 """
+    mod = mod_pos
+    while ((start - mod) % 3) + 1 != 1:
+        mod += mod_pos
+    return mod
 
 def repair(fasta, gff3):
     recs = {}
@@ -46,22 +58,31 @@ def repair(fasta, gff3):
         if seq.id not in recs:
             continue
 
-        # if seq.id == 'GFP':
-
-            # with open('test1.fa', 'w') as seqfile1:
-                # SeqIO.write(seq, seqfile1, 'fasta')
+        if seq.id != 'GFP':
+            continue
 
         current = recs[seq.id]
-        for feat in current.features:
+        for num, feat in enumerate(current.features):
+            if num == 0:  # ignore first feature bc that's the full one
+                continue
+
             cds, sd = get_CDS_and_SD(feat)
             cds_start = seq.seq[cds.location.start:cds.location.start+3]
             broken_start = break_start(cds_start)
-            if cds_start != broken_start:
-                # try to break start sequence while keeping amino acid the same
+
+            if cds_start != broken_start:  # try to break start sequence while keeping amino acid the same
                 seq.seq = seq.seq[0:cds.location.start] + broken_start + seq.seq[cds.location.start+3:]
-            else:
-                # if couldn't change start, must break SD
-                break_sd(sd)
+
+            else:  # if couldn't change start, must break SD
+                mod_sd_start = 0
+                mod_sd_end = 0
+                if (sd.location.start % 3) + 1 != 1:
+                    mod_sd_start = next_first_frame(sd.location.start, 1)
+                if (sd.location.end % 3) + 1 != 1:
+                    mod_sd_end = next_first_frame(sd.location.end, -1)
+
+                break_sd(seq.seq[sd.location.start-mod_sd_start:sd.location.end-mod_sd_end])
+
         seqs.append(seq)
 
     with open('out.fa', 'w') as seqfile:
