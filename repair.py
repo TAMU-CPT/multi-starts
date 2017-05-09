@@ -2,9 +2,43 @@
 
 import argparse
 from Bio import SeqIO
+from Bio.Seq import Seq
 from BCBio import GFF
 from Bio.Data import CodonTable
+from Bio.Alphabet import IUPAC
+import itertools
 import sys
+
+# get all possible codons for every amino acid
+table = CodonTable.unambiguous_dna_by_id[11]
+aa_codes = {}
+for codon in table.forward_table:
+    if table.forward_table[codon] in aa_codes:
+        aa_codes[table.forward_table[codon]].append(codon)
+    else:
+        aa_codes[table.forward_table[codon]] = [codon]
+
+sds = (  # all possible SD sequences
+    'AGGAGGT',
+    'GGAGGT',
+    'AGGAGG',
+    'GGGGGG',
+    'AGGAG',
+    'GAGGT',
+    'GGAGG',
+    'GGGGG',
+    'AGGT',
+    'GGGT',
+    'GAGG',
+    'GGGG',
+    'AGGA',
+    'GGAG',
+    'GGA',
+    'GAG',
+    'AGG',
+    'GGT',
+    'GGG',
+)
 
 def get_CDS_and_SD(feat):
     """
@@ -38,8 +72,18 @@ def break_sd(sd):
         if possible, change the SD sequence
         while keeping the same amino acid translation
     """
-    # table = CodonTable.unambiguous_dna_by_id[11]
-    print sd
+    cdns = []
+    for c in sd.translate(table=table):  # find all possible combinations of codons w/ same translation
+        cdns.append(aa_codes[c])
+    for i in list(itertools.product(*cdns)):  # if a combo has no shine, return
+        check = ''.join(i)
+        no_sd = True
+        for s in sds:
+            if s in check:
+                no_sd = False
+        if no_sd:
+            return Seq(check, IUPAC.unambiguous_dna)
+    return sd
 
 def next_first_frame(start, mod_pos):
     """ return position of next nucleotide in frame 1 """
@@ -58,8 +102,8 @@ def repair(fasta, gff3):
         if seq.id not in recs:
             continue
 
-        if seq.id != 'GFP':
-            continue
+        # if seq.id != 'GFP':
+            # continue
 
         current = recs[seq.id]
         for num, feat in enumerate(current.features):
@@ -81,7 +125,10 @@ def repair(fasta, gff3):
                 if (sd.location.end % 3) + 1 != 1:
                     mod_sd_end = next_first_frame(sd.location.end, -1)
 
-                break_sd(seq.seq[sd.location.start-mod_sd_start:sd.location.end-mod_sd_end])
+                sd_seq = seq.seq[sd.location.start-mod_sd_start:sd.location.end-mod_sd_end]
+                broken_sd = break_sd(sd_seq)
+                if sd_seq != broken_sd:
+                    seq.seq = seq.seq[0:(sd.location.start-mod_sd_start)] + broken_sd + seq.seq[(sd.location.end-mod_sd_end):]
 
         seqs.append(seq)
 
