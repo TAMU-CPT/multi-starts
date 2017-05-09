@@ -94,7 +94,9 @@ def next_first_frame(start, mod_pos):
 
 def repair(fasta, gff3):
     recs = {}
+    # seqids = {}
     for record in GFF.parse(gff3):
+        # seqids[record.id] = ''
         recs[record.id] = record
 
     seqs = []
@@ -104,6 +106,7 @@ def repair(fasta, gff3):
 
         # if seq.id != 'GFP':
             # continue
+        # count = 0
 
         current = recs[seq.id]
         for num, feat in enumerate(current.features):
@@ -115,6 +118,7 @@ def repair(fasta, gff3):
             broken_start = break_start(cds_start)
 
             if cds_start != broken_start:  # try to break start sequence while keeping amino acid the same
+                # count += 1
                 seq.seq = seq.seq[0:cds.location.start] + broken_start + seq.seq[cds.location.start+3:]
 
             else:  # if couldn't change start, must break SD
@@ -128,9 +132,13 @@ def repair(fasta, gff3):
                 sd_seq = seq.seq[sd.location.start-mod_sd_start:sd.location.end-mod_sd_end]
                 broken_sd = break_sd(sd_seq)
                 if sd_seq != broken_sd:
+                    # count += 1
                     seq.seq = seq.seq[0:(sd.location.start-mod_sd_start)] + broken_sd + seq.seq[(sd.location.end-mod_sd_end):]
 
         seqs.append(seq)
+        # seqids[seq.id] = str(count)
+    # for s in sorted(seqids):
+        # print s + '\t' + seqids[s]
 
     with open('out.fa', 'w') as seqfile:
         SeqIO.write(seqs, seqfile, 'fasta')
