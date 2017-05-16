@@ -3549,7 +3549,7 @@ daGFP	CPT_ShineFind	Shine_Dalgarno_sequence	76	79	.	+	.	ID=CDS.111.7.rbs-0;Paren
 daGFP	cpt.fixModel	gene	325	720	.	+	.	ID=CDS.111.16
 daGFP	cpt.fixModel	mRNA	325	720	.	+	.	ID=CDS.111.16.mRNA;Parent=CDS.111.16
 daGFP	getOrfsOrCds	CDS	325	720	.	+	0	ID=CDS.111.16.CDS;Parent=CDS.111.16.mRNA
-daGFP	CPT_ShineFind	Shine_Dalgarno_sequence	313	316	.	+	.	ID=CDS.111.16.rbs-0;Parent=CDS.111.16
+daGFP	CPT_ShineFind	Shine_Dalgarno_sequence	315	319	.	+	.	ID=CDS.111.16.rbs-0;Parent=CDS.111.16
 daGFP	cpt.fixModel	gene	421	720	.	+	.	ID=CDS.111.20
 daGFP	cpt.fixModel	mRNA	421	720	.	+	.	ID=CDS.111.20.mRNA;Parent=CDS.111.20
 daGFP	getOrfsOrCds	CDS	421	720	.	+	0	ID=CDS.111.20.CDS;Parent=CDS.111.20.mRNA
