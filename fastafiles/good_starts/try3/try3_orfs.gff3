@@ -102,10 +102,10 @@ Dendra2	cpt.fixModel	gene	10	702	.	+	.	ID=CDS.104.1
 Dendra2	cpt.fixModel	mRNA	10	702	.	+	.	ID=CDS.104.1.mRNA;Parent=CDS.104.1
 Dendra2	getOrfsOrCds	CDS	10	702	.	+	0	ID=CDS.104.1.CDS;Parent=CDS.104.1.mRNA
 Dendra2	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.104.1.rbs-0;Parent=CDS.104.1
-Dendra2	cpt.fixModel	gene	301	702	.	+	.	ID=CDS.104.17
-Dendra2	cpt.fixModel	mRNA	301	702	.	+	.	ID=CDS.104.17.mRNA;Parent=CDS.104.17
-Dendra2	getOrfsOrCds	CDS	301	702	.	+	0	ID=CDS.104.17.CDS;Parent=CDS.104.17.mRNA
-Dendra2	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.104.17.rbs-0;Parent=CDS.104.17
+Dendra2	cpt.fixModel	gene	301	702	.	+	.	ID=CDS.104.18
+Dendra2	cpt.fixModel	mRNA	301	702	.	+	.	ID=CDS.104.18.mRNA;Parent=CDS.104.18
+Dendra2	getOrfsOrCds	CDS	301	702	.	+	0	ID=CDS.104.18.CDS;Parent=CDS.104.18.mRNA
+Dendra2	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.104.18.rbs-0;Parent=CDS.104.18
 ##gff-version 3
 ##sequence-region Dronpa-Green1 1 687
 Dronpa-Green1	cpt.fixModel	gene	10	687	.	+	.	ID=CDS.82.1
@@ -144,104 +144,104 @@ DsRed-Express	cpt.fixModel	gene	10	687	.	+	.	ID=CDS.58.1
 DsRed-Express	cpt.fixModel	mRNA	10	687	.	+	.	ID=CDS.58.1.mRNA;Parent=CDS.58.1
 DsRed-Express	getOrfsOrCds	CDS	10	687	.	+	0	ID=CDS.58.1.CDS;Parent=CDS.58.1.mRNA
 DsRed-Express	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.58.1.rbs-0;Parent=CDS.58.1
-DsRed-Express	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.58.14
-DsRed-Express	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.58.14.mRNA;Parent=CDS.58.14
-DsRed-Express	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.58.14.CDS;Parent=CDS.58.14.mRNA
-DsRed-Express	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.58.14.rbs-0;Parent=CDS.58.14
+DsRed-Express	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.58.15
+DsRed-Express	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.58.15.mRNA;Parent=CDS.58.15
+DsRed-Express	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.58.15.CDS;Parent=CDS.58.15.mRNA
+DsRed-Express	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.58.15.rbs-0;Parent=CDS.58.15
 ##gff-version 3
 ##sequence-region DsRed-Express2 1 687
 DsRed-Express2	cpt.fixModel	gene	10	687	.	+	.	ID=CDS.122.1
 DsRed-Express2	cpt.fixModel	mRNA	10	687	.	+	.	ID=CDS.122.1.mRNA;Parent=CDS.122.1
 DsRed-Express2	getOrfsOrCds	CDS	10	687	.	+	0	ID=CDS.122.1.CDS;Parent=CDS.122.1.mRNA
 DsRed-Express2	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.122.1.rbs-0;Parent=CDS.122.1
-DsRed-Express2	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.122.14
-DsRed-Express2	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.122.14.mRNA;Parent=CDS.122.14
-DsRed-Express2	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.122.14.CDS;Parent=CDS.122.14.mRNA
-DsRed-Express2	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.122.14.rbs-0;Parent=CDS.122.14
+DsRed-Express2	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.122.15
+DsRed-Express2	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.122.15.mRNA;Parent=CDS.122.15
+DsRed-Express2	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.122.15.CDS;Parent=CDS.122.15.mRNA
+DsRed-Express2	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.122.15.rbs-0;Parent=CDS.122.15
 ##gff-version 3
 ##sequence-region DsRed-Max 1 687
 DsRed-Max	cpt.fixModel	gene	10	687	.	+	.	ID=CDS.135.1
 DsRed-Max	cpt.fixModel	mRNA	10	687	.	+	.	ID=CDS.135.1.mRNA;Parent=CDS.135.1
 DsRed-Max	getOrfsOrCds	CDS	10	687	.	+	0	ID=CDS.135.1.CDS;Parent=CDS.135.1.mRNA
 DsRed-Max	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.135.1.rbs-0;Parent=CDS.135.1
-DsRed-Max	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.135.15
-DsRed-Max	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.135.15.mRNA;Parent=CDS.135.15
-DsRed-Max	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.135.15.CDS;Parent=CDS.135.15.mRNA
-DsRed-Max	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.135.15.rbs-0;Parent=CDS.135.15
+DsRed-Max	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.135.16
+DsRed-Max	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.135.16.mRNA;Parent=CDS.135.16
+DsRed-Max	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.135.16.CDS;Parent=CDS.135.16.mRNA
+DsRed-Max	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.135.16.rbs-0;Parent=CDS.135.16
 ##gff-version 3
 ##sequence-region DsRed-Monomer 1 687
 DsRed-Monomer	cpt.fixModel	gene	10	687	.	+	.	ID=CDS.155.1
 DsRed-Monomer	cpt.fixModel	mRNA	10	687	.	+	.	ID=CDS.155.1.mRNA;Parent=CDS.155.1
 DsRed-Monomer	getOrfsOrCds	CDS	10	687	.	+	0	ID=CDS.155.1.CDS;Parent=CDS.155.1.mRNA
 DsRed-Monomer	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.155.1.rbs-0;Parent=CDS.155.1
-DsRed-Monomer	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.155.14
-DsRed-Monomer	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.155.14.mRNA;Parent=CDS.155.14
-DsRed-Monomer	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.155.14.CDS;Parent=CDS.155.14.mRNA
-DsRed-Monomer	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.155.14.rbs-0;Parent=CDS.155.14
+DsRed-Monomer	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.155.15
+DsRed-Monomer	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.155.15.mRNA;Parent=CDS.155.15
+DsRed-Monomer	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.155.15.CDS;Parent=CDS.155.15.mRNA
+DsRed-Monomer	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.155.15.rbs-0;Parent=CDS.155.15
 ##gff-version 3
 ##sequence-region DsRed.T3 1 687
 DsRed.T3	cpt.fixModel	gene	10	687	.	+	.	ID=CDS.18.1
 DsRed.T3	cpt.fixModel	mRNA	10	687	.	+	.	ID=CDS.18.1.mRNA;Parent=CDS.18.1
 DsRed.T3	getOrfsOrCds	CDS	10	687	.	+	0	ID=CDS.18.1.CDS;Parent=CDS.18.1.mRNA
 DsRed.T3	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.18.1.rbs-0;Parent=CDS.18.1
-DsRed.T3	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.18.14
-DsRed.T3	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.18.14.mRNA;Parent=CDS.18.14
-DsRed.T3	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.18.14.CDS;Parent=CDS.18.14.mRNA
-DsRed.T3	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.18.14.rbs-0;Parent=CDS.18.14
+DsRed.T3	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.18.15
+DsRed.T3	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.18.15.mRNA;Parent=CDS.18.15
+DsRed.T3	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.18.15.CDS;Parent=CDS.18.15.mRNA
+DsRed.T3	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.18.15.rbs-0;Parent=CDS.18.15
 ##gff-version 3
 ##sequence-region DsRed1 1 690
 DsRed1	cpt.fixModel	gene	10	690	.	+	.	ID=CDS.41.1
 DsRed1	cpt.fixModel	mRNA	10	690	.	+	.	ID=CDS.41.1.mRNA;Parent=CDS.41.1
 DsRed1	getOrfsOrCds	CDS	10	690	.	+	0	ID=CDS.41.1.CDS;Parent=CDS.41.1.mRNA
 DsRed1	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.41.1.rbs-0;Parent=CDS.41.1
-DsRed1	cpt.fixModel	gene	301	690	.	+	.	ID=CDS.41.14
-DsRed1	cpt.fixModel	mRNA	301	690	.	+	.	ID=CDS.41.14.mRNA;Parent=CDS.41.14
-DsRed1	getOrfsOrCds	CDS	301	690	.	+	0	ID=CDS.41.14.CDS;Parent=CDS.41.14.mRNA
-DsRed1	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.41.14.rbs-0;Parent=CDS.41.14
+DsRed1	cpt.fixModel	gene	301	690	.	+	.	ID=CDS.41.15
+DsRed1	cpt.fixModel	mRNA	301	690	.	+	.	ID=CDS.41.15.mRNA;Parent=CDS.41.15
+DsRed1	getOrfsOrCds	CDS	301	690	.	+	0	ID=CDS.41.15.CDS;Parent=CDS.41.15.mRNA
+DsRed1	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.41.15.rbs-0;Parent=CDS.41.15
 ##gff-version 3
 ##sequence-region DsRed2 1 687
 DsRed2	cpt.fixModel	gene	10	687	.	+	.	ID=CDS.38.1
 DsRed2	cpt.fixModel	mRNA	10	687	.	+	.	ID=CDS.38.1.mRNA;Parent=CDS.38.1
 DsRed2	getOrfsOrCds	CDS	10	687	.	+	0	ID=CDS.38.1.CDS;Parent=CDS.38.1.mRNA
 DsRed2	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.38.1.rbs-0;Parent=CDS.38.1
-DsRed2	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.38.14
-DsRed2	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.38.14.mRNA;Parent=CDS.38.14
-DsRed2	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.38.14.CDS;Parent=CDS.38.14.mRNA
-DsRed2	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.38.14.rbs-0;Parent=CDS.38.14
+DsRed2	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.38.15
+DsRed2	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.38.15.mRNA;Parent=CDS.38.15
+DsRed2	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.38.15.CDS;Parent=CDS.38.15.mRNA
+DsRed2	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.38.15.rbs-0;Parent=CDS.38.15
 ##gff-version 3
 ##sequence-region E2-Crimson 1 687
 E2-Crimson	cpt.fixModel	gene	10	687	.	+	.	ID=CDS.169.1
 E2-Crimson	cpt.fixModel	mRNA	10	687	.	+	.	ID=CDS.169.1.mRNA;Parent=CDS.169.1
 E2-Crimson	getOrfsOrCds	CDS	10	687	.	+	0	ID=CDS.169.1.CDS;Parent=CDS.169.1.mRNA
 E2-Crimson	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.169.1.rbs-0;Parent=CDS.169.1
-E2-Crimson	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.169.13
-E2-Crimson	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.169.13.mRNA;Parent=CDS.169.13
-E2-Crimson	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.169.13.CDS;Parent=CDS.169.13.mRNA
-E2-Crimson	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.169.13.rbs-0;Parent=CDS.169.13
-E2-Crimson	cpt.fixModel	gene	496	687	.	+	.	ID=CDS.169.24
-E2-Crimson	cpt.fixModel	mRNA	496	687	.	+	.	ID=CDS.169.24.mRNA;Parent=CDS.169.24
-E2-Crimson	getOrfsOrCds	CDS	496	687	.	+	0	ID=CDS.169.24.CDS;Parent=CDS.169.24.mRNA
-E2-Crimson	CPT_ShineFind	Shine_Dalgarno_sequence	482	484	.	+	.	ID=CDS.169.24.rbs-0;Parent=CDS.169.24
+E2-Crimson	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.169.14
+E2-Crimson	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.169.14.mRNA;Parent=CDS.169.14
+E2-Crimson	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.169.14.CDS;Parent=CDS.169.14.mRNA
+E2-Crimson	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.169.14.rbs-0;Parent=CDS.169.14
+E2-Crimson	cpt.fixModel	gene	496	687	.	+	.	ID=CDS.169.25
+E2-Crimson	cpt.fixModel	mRNA	496	687	.	+	.	ID=CDS.169.25.mRNA;Parent=CDS.169.25
+E2-Crimson	getOrfsOrCds	CDS	496	687	.	+	0	ID=CDS.169.25.CDS;Parent=CDS.169.25.mRNA
+E2-Crimson	CPT_ShineFind	Shine_Dalgarno_sequence	482	484	.	+	.	ID=CDS.169.25.rbs-0;Parent=CDS.169.25
 ##gff-version 3
 ##sequence-region E2-Orange 1 687
 E2-Orange	cpt.fixModel	gene	10	687	.	+	.	ID=CDS.170.1
 E2-Orange	cpt.fixModel	mRNA	10	687	.	+	.	ID=CDS.170.1.mRNA;Parent=CDS.170.1
 E2-Orange	getOrfsOrCds	CDS	10	687	.	+	0	ID=CDS.170.1.CDS;Parent=CDS.170.1.mRNA
 E2-Orange	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.170.1.rbs-0;Parent=CDS.170.1
-E2-Orange	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.170.13
-E2-Orange	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.170.13.mRNA;Parent=CDS.170.13
-E2-Orange	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.170.13.CDS;Parent=CDS.170.13.mRNA
-E2-Orange	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.170.13.rbs-0;Parent=CDS.170.13
+E2-Orange	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.170.14
+E2-Orange	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.170.14.mRNA;Parent=CDS.170.14
+E2-Orange	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.170.14.CDS;Parent=CDS.170.14.mRNA
+E2-Orange	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.170.14.rbs-0;Parent=CDS.170.14
 ##gff-version 3
 ##sequence-region E2-Red_Green 1 687
 E2-Red_Green	cpt.fixModel	gene	10	687	.	+	.	ID=CDS.51.1
 E2-Red_Green	cpt.fixModel	mRNA	10	687	.	+	.	ID=CDS.51.1.mRNA;Parent=CDS.51.1
 E2-Red_Green	getOrfsOrCds	CDS	10	687	.	+	0	ID=CDS.51.1.CDS;Parent=CDS.51.1.mRNA
 E2-Red_Green	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.51.1.rbs-0;Parent=CDS.51.1
-E2-Red_Green	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.51.14
-E2-Red_Green	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.51.14.mRNA;Parent=CDS.51.14
-E2-Red_Green	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.51.14.CDS;Parent=CDS.51.14.mRNA
-E2-Red_Green	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.51.14.rbs-0;Parent=CDS.51.14
+E2-Red_Green	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.51.15
+E2-Red_Green	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.51.15.mRNA;Parent=CDS.51.15
+E2-Red_Green	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.51.15.CDS;Parent=CDS.51.15.mRNA
+E2-Red_Green	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.51.15.rbs-0;Parent=CDS.51.15
 ##gff-version 3
 ##sequence-region EBFP 1 729
 EBFP	cpt.fixModel	gene	10	729	.	+	.	ID=CDS.66.1
@@ -304,10 +304,10 @@ Fluorescent_Timer	cpt.fixModel	gene	10	690	.	+	.	ID=CDS.175.1
 Fluorescent_Timer	cpt.fixModel	mRNA	10	690	.	+	.	ID=CDS.175.1.mRNA;Parent=CDS.175.1
 Fluorescent_Timer	getOrfsOrCds	CDS	10	690	.	+	0	ID=CDS.175.1.CDS;Parent=CDS.175.1.mRNA
 Fluorescent_Timer	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.175.1.rbs-0;Parent=CDS.175.1
-Fluorescent_Timer	cpt.fixModel	gene	301	690	.	+	.	ID=CDS.175.14
-Fluorescent_Timer	cpt.fixModel	mRNA	301	690	.	+	.	ID=CDS.175.14.mRNA;Parent=CDS.175.14
-Fluorescent_Timer	getOrfsOrCds	CDS	301	690	.	+	0	ID=CDS.175.14.CDS;Parent=CDS.175.14.mRNA
-Fluorescent_Timer	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.175.14.rbs-0;Parent=CDS.175.14
+Fluorescent_Timer	cpt.fixModel	gene	301	690	.	+	.	ID=CDS.175.15
+Fluorescent_Timer	cpt.fixModel	mRNA	301	690	.	+	.	ID=CDS.175.15.mRNA;Parent=CDS.175.15
+Fluorescent_Timer	getOrfsOrCds	CDS	301	690	.	+	0	ID=CDS.175.15.CDS;Parent=CDS.175.15.mRNA
+Fluorescent_Timer	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.175.15.rbs-0;Parent=CDS.175.15
 ##gff-version 3
 ##sequence-region FusionRed 1 708
 FusionRed	cpt.fixModel	gene	10	708	.	+	.	ID=CDS.184.1
@@ -460,10 +460,10 @@ LSSmOrange	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.100.1
 LSSmOrange	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.100.1.mRNA;Parent=CDS.100.1
 LSSmOrange	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.100.1.CDS;Parent=CDS.100.1.mRNA
 LSSmOrange	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.100.1.rbs-0;Parent=CDS.100.1
-LSSmOrange	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.100.14
-LSSmOrange	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.100.14.mRNA;Parent=CDS.100.14
-LSSmOrange	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.100.14.CDS;Parent=CDS.100.14.mRNA
-LSSmOrange	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.100.14.rbs-0;Parent=CDS.100.14
+LSSmOrange	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.100.15
+LSSmOrange	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.100.15.mRNA;Parent=CDS.100.15
+LSSmOrange	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.100.15.CDS;Parent=CDS.100.15.mRNA
+LSSmOrange	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.100.15.rbs-0;Parent=CDS.100.15
 ##gff-version 3
 ##sequence-region LanYFP 1 669
 LanYFP	cpt.fixModel	gene	10	669	.	+	.	ID=CDS.47.1
@@ -520,20 +520,20 @@ PAmCherry	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.128.1
 PAmCherry	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.128.1.mRNA;Parent=CDS.128.1
 PAmCherry	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.128.1.CDS;Parent=CDS.128.1.mRNA
 PAmCherry	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.128.1.rbs-0;Parent=CDS.128.1
-PAmCherry	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.128.18
-PAmCherry	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.128.18.mRNA;Parent=CDS.128.18
-PAmCherry	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.128.18.CDS;Parent=CDS.128.18.mRNA
-PAmCherry	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.128.18.rbs-0;Parent=CDS.128.18
+PAmCherry	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.128.19
+PAmCherry	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.128.19.mRNA;Parent=CDS.128.19
+PAmCherry	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.128.19.CDS;Parent=CDS.128.19.mRNA
+PAmCherry	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.128.19.rbs-0;Parent=CDS.128.19
 ##gff-version 3
 ##sequence-region PAmCherry1 1 720
 PAmCherry1	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.94.1
 PAmCherry1	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.94.1.mRNA;Parent=CDS.94.1
 PAmCherry1	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.94.1.CDS;Parent=CDS.94.1.mRNA
 PAmCherry1	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.94.1.rbs-0;Parent=CDS.94.1
-PAmCherry1	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.94.17
-PAmCherry1	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.94.17.mRNA;Parent=CDS.94.17
-PAmCherry1	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.94.17.CDS;Parent=CDS.94.17.mRNA
-PAmCherry1	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.94.17.rbs-0;Parent=CDS.94.17
+PAmCherry1	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.94.18
+PAmCherry1	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.94.18.mRNA;Parent=CDS.94.18
+PAmCherry1	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.94.18.CDS;Parent=CDS.94.18.mRNA
+PAmCherry1	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.94.18.rbs-0;Parent=CDS.94.18
 ##gff-version 3
 ##sequence-region PAmKate 1 723
 PAmKate	cpt.fixModel	gene	10	723	.	+	.	ID=CDS.14.1
@@ -560,28 +560,28 @@ PSmOrange	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.60.1
 PSmOrange	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.60.1.mRNA;Parent=CDS.60.1
 PSmOrange	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.60.1.CDS;Parent=CDS.60.1.mRNA
 PSmOrange	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.60.1.rbs-0;Parent=CDS.60.1
-PSmOrange	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.60.15
-PSmOrange	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.60.15.mRNA;Parent=CDS.60.15
-PSmOrange	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.60.15.CDS;Parent=CDS.60.15.mRNA
-PSmOrange	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.60.15.rbs-0;Parent=CDS.60.15
-PSmOrange	cpt.fixModel	gene	511	720	.	+	.	ID=CDS.60.26
-PSmOrange	cpt.fixModel	mRNA	511	720	.	+	.	ID=CDS.60.26.mRNA;Parent=CDS.60.26
-PSmOrange	getOrfsOrCds	CDS	511	720	.	+	0	ID=CDS.60.26.CDS;Parent=CDS.60.26.mRNA
-PSmOrange	CPT_ShineFind	Shine_Dalgarno_sequence	497	499	.	+	.	ID=CDS.60.26.rbs-0;Parent=CDS.60.26
+PSmOrange	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.60.16
+PSmOrange	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.60.16.mRNA;Parent=CDS.60.16
+PSmOrange	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.60.16.CDS;Parent=CDS.60.16.mRNA
+PSmOrange	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.60.16.rbs-0;Parent=CDS.60.16
+PSmOrange	cpt.fixModel	gene	511	720	.	+	.	ID=CDS.60.27
+PSmOrange	cpt.fixModel	mRNA	511	720	.	+	.	ID=CDS.60.27.mRNA;Parent=CDS.60.27
+PSmOrange	getOrfsOrCds	CDS	511	720	.	+	0	ID=CDS.60.27.CDS;Parent=CDS.60.27.mRNA
+PSmOrange	CPT_ShineFind	Shine_Dalgarno_sequence	497	499	.	+	.	ID=CDS.60.27.rbs-0;Parent=CDS.60.27
 ##gff-version 3
 ##sequence-region PSmOrange2 1 720
 PSmOrange2	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.50.1
 PSmOrange2	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.50.1.mRNA;Parent=CDS.50.1
 PSmOrange2	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.50.1.CDS;Parent=CDS.50.1.mRNA
 PSmOrange2	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.50.1.rbs-0;Parent=CDS.50.1
-PSmOrange2	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.50.16
-PSmOrange2	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.50.16.mRNA;Parent=CDS.50.16
-PSmOrange2	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.50.16.CDS;Parent=CDS.50.16.mRNA
-PSmOrange2	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.50.16.rbs-0;Parent=CDS.50.16
-PSmOrange2	cpt.fixModel	gene	511	720	.	+	.	ID=CDS.50.27
-PSmOrange2	cpt.fixModel	mRNA	511	720	.	+	.	ID=CDS.50.27.mRNA;Parent=CDS.50.27
-PSmOrange2	getOrfsOrCds	CDS	511	720	.	+	0	ID=CDS.50.27.CDS;Parent=CDS.50.27.mRNA
-PSmOrange2	CPT_ShineFind	Shine_Dalgarno_sequence	497	499	.	+	.	ID=CDS.50.27.rbs-0;Parent=CDS.50.27
+PSmOrange2	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.50.17
+PSmOrange2	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.50.17.mRNA;Parent=CDS.50.17
+PSmOrange2	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.50.17.CDS;Parent=CDS.50.17.mRNA
+PSmOrange2	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.50.17.rbs-0;Parent=CDS.50.17
+PSmOrange2	cpt.fixModel	gene	511	720	.	+	.	ID=CDS.50.28
+PSmOrange2	cpt.fixModel	mRNA	511	720	.	+	.	ID=CDS.50.28.mRNA;Parent=CDS.50.28
+PSmOrange2	getOrfsOrCds	CDS	511	720	.	+	0	ID=CDS.50.28.CDS;Parent=CDS.50.28.mRNA
+PSmOrange2	CPT_ShineFind	Shine_Dalgarno_sequence	497	499	.	+	.	ID=CDS.50.28.rbs-0;Parent=CDS.50.28
 ##gff-version 3
 ##sequence-region Rhacostoma_GFP 1 726
 Rhacostoma_GFP	cpt.fixModel	gene	10	726	.	+	.	ID=CDS.2.1
@@ -820,14 +820,14 @@ dTomato	cpt.fixModel	gene	10	714	.	+	.	ID=CDS.22.1
 dTomato	cpt.fixModel	mRNA	10	714	.	+	.	ID=CDS.22.1.mRNA;Parent=CDS.22.1
 dTomato	getOrfsOrCds	CDS	10	714	.	+	0	ID=CDS.22.1.CDS;Parent=CDS.22.1.mRNA
 dTomato	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.22.1.rbs-0;Parent=CDS.22.1
-dTomato	cpt.fixModel	gene	76	714	.	+	.	ID=CDS.22.5
-dTomato	cpt.fixModel	mRNA	76	714	.	+	.	ID=CDS.22.5.mRNA;Parent=CDS.22.5
-dTomato	getOrfsOrCds	CDS	76	714	.	+	0	ID=CDS.22.5.CDS;Parent=CDS.22.5.mRNA
-dTomato	CPT_ShineFind	Shine_Dalgarno_sequence	66	70	.	+	.	ID=CDS.22.5.rbs-0;Parent=CDS.22.5
-dTomato	cpt.fixModel	gene	301	714	.	+	.	ID=CDS.22.15
-dTomato	cpt.fixModel	mRNA	301	714	.	+	.	ID=CDS.22.15.mRNA;Parent=CDS.22.15
-dTomato	getOrfsOrCds	CDS	301	714	.	+	0	ID=CDS.22.15.CDS;Parent=CDS.22.15.mRNA
-dTomato	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.22.15.rbs-0;Parent=CDS.22.15
+dTomato	cpt.fixModel	gene	76	714	.	+	.	ID=CDS.22.6
+dTomato	cpt.fixModel	mRNA	76	714	.	+	.	ID=CDS.22.6.mRNA;Parent=CDS.22.6
+dTomato	getOrfsOrCds	CDS	76	714	.	+	0	ID=CDS.22.6.CDS;Parent=CDS.22.6.mRNA
+dTomato	CPT_ShineFind	Shine_Dalgarno_sequence	66	70	.	+	.	ID=CDS.22.6.rbs-0;Parent=CDS.22.6
+dTomato	cpt.fixModel	gene	301	714	.	+	.	ID=CDS.22.16
+dTomato	cpt.fixModel	mRNA	301	714	.	+	.	ID=CDS.22.16.mRNA;Parent=CDS.22.16
+dTomato	getOrfsOrCds	CDS	301	714	.	+	0	ID=CDS.22.16.CDS;Parent=CDS.22.16.mRNA
+dTomato	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.22.16.rbs-0;Parent=CDS.22.16
 ##gff-version 3
 ##sequence-region daGFP 1 720
 daGFP	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.111.1
@@ -850,14 +850,14 @@ hKO	cpt.fixModel	gene	130	666	.	+	.	ID=CDS.64.7
 hKO	cpt.fixModel	mRNA	130	666	.	+	.	ID=CDS.64.7.mRNA;Parent=CDS.64.7
 hKO	getOrfsOrCds	CDS	130	666	.	+	0	ID=CDS.64.7.CDS;Parent=CDS.64.7.mRNA
 hKO	CPT_ShineFind	Shine_Dalgarno_sequence	115	118	.	+	.	ID=CDS.64.7.rbs-0;Parent=CDS.64.7
-hKO	cpt.fixModel	gene	166	666	.	+	.	ID=CDS.64.9
-hKO	cpt.fixModel	mRNA	166	666	.	+	.	ID=CDS.64.9.mRNA;Parent=CDS.64.9
-hKO	getOrfsOrCds	CDS	166	666	.	+	0	ID=CDS.64.9.CDS;Parent=CDS.64.9.mRNA
-hKO	CPT_ShineFind	Shine_Dalgarno_sequence	155	157	.	+	.	ID=CDS.64.9.rbs-0;Parent=CDS.64.9
-hKO	cpt.fixModel	gene	493	666	.	+	.	ID=CDS.64.23
-hKO	cpt.fixModel	mRNA	493	666	.	+	.	ID=CDS.64.23.mRNA;Parent=CDS.64.23
-hKO	getOrfsOrCds	CDS	493	666	.	+	0	ID=CDS.64.23.CDS;Parent=CDS.64.23.mRNA
-hKO	CPT_ShineFind	Shine_Dalgarno_sequence	479	481	.	+	.	ID=CDS.64.23.rbs-0;Parent=CDS.64.23
+hKO	cpt.fixModel	gene	166	666	.	+	.	ID=CDS.64.10
+hKO	cpt.fixModel	mRNA	166	666	.	+	.	ID=CDS.64.10.mRNA;Parent=CDS.64.10
+hKO	getOrfsOrCds	CDS	166	666	.	+	0	ID=CDS.64.10.CDS;Parent=CDS.64.10.mRNA
+hKO	CPT_ShineFind	Shine_Dalgarno_sequence	155	157	.	+	.	ID=CDS.64.10.rbs-0;Parent=CDS.64.10
+hKO	cpt.fixModel	gene	493	666	.	+	.	ID=CDS.64.24
+hKO	cpt.fixModel	mRNA	493	666	.	+	.	ID=CDS.64.24.mRNA;Parent=CDS.64.24
+hKO	getOrfsOrCds	CDS	493	666	.	+	0	ID=CDS.64.24.CDS;Parent=CDS.64.24.mRNA
+hKO	CPT_ShineFind	Shine_Dalgarno_sequence	479	481	.	+	.	ID=CDS.64.24.rbs-0;Parent=CDS.64.24
 ##gff-version 3
 ##sequence-region hKikGR1 1 696
 hKikGR1	cpt.fixModel	gene	10	696	.	+	.	ID=CDS.71.1
@@ -896,20 +896,20 @@ hdKeima-Red	cpt.fixModel	gene	10	678	.	+	.	ID=CDS.43.1
 hdKeima-Red	cpt.fixModel	mRNA	10	678	.	+	.	ID=CDS.43.1.mRNA;Parent=CDS.43.1
 hdKeima-Red	getOrfsOrCds	CDS	10	678	.	+	0	ID=CDS.43.1.CDS;Parent=CDS.43.1.mRNA
 hdKeima-Red	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.43.1.rbs-0;Parent=CDS.43.1
-hdKeima-Red	cpt.fixModel	gene	289	678	.	+	.	ID=CDS.43.17
-hdKeima-Red	cpt.fixModel	mRNA	289	678	.	+	.	ID=CDS.43.17.mRNA;Parent=CDS.43.17
-hdKeima-Red	getOrfsOrCds	CDS	289	678	.	+	0	ID=CDS.43.17.CDS;Parent=CDS.43.17.mRNA
-hdKeima-Red	CPT_ShineFind	Shine_Dalgarno_sequence	279	282	.	+	.	ID=CDS.43.17.rbs-0;Parent=CDS.43.17
+hdKeima-Red	cpt.fixModel	gene	289	678	.	+	.	ID=CDS.43.18
+hdKeima-Red	cpt.fixModel	mRNA	289	678	.	+	.	ID=CDS.43.18.mRNA;Parent=CDS.43.18
+hdKeima-Red	getOrfsOrCds	CDS	289	678	.	+	0	ID=CDS.43.18.CDS;Parent=CDS.43.18.mRNA
+hdKeima-Red	CPT_ShineFind	Shine_Dalgarno_sequence	279	282	.	+	.	ID=CDS.43.18.rbs-0;Parent=CDS.43.18
 ##gff-version 3
 ##sequence-region hdKeima570 1 678
 hdKeima570	cpt.fixModel	gene	10	678	.	+	.	ID=CDS.33.1
 hdKeima570	cpt.fixModel	mRNA	10	678	.	+	.	ID=CDS.33.1.mRNA;Parent=CDS.33.1
 hdKeima570	getOrfsOrCds	CDS	10	678	.	+	0	ID=CDS.33.1.CDS;Parent=CDS.33.1.mRNA
 hdKeima570	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.33.1.rbs-0;Parent=CDS.33.1
-hdKeima570	cpt.fixModel	gene	289	678	.	+	.	ID=CDS.33.18
-hdKeima570	cpt.fixModel	mRNA	289	678	.	+	.	ID=CDS.33.18.mRNA;Parent=CDS.33.18
-hdKeima570	getOrfsOrCds	CDS	289	678	.	+	0	ID=CDS.33.18.CDS;Parent=CDS.33.18.mRNA
-hdKeima570	CPT_ShineFind	Shine_Dalgarno_sequence	279	282	.	+	.	ID=CDS.33.18.rbs-0;Parent=CDS.33.18
+hdKeima570	cpt.fixModel	gene	289	678	.	+	.	ID=CDS.33.19
+hdKeima570	cpt.fixModel	mRNA	289	678	.	+	.	ID=CDS.33.19.mRNA;Parent=CDS.33.19
+hdKeima570	getOrfsOrCds	CDS	289	678	.	+	0	ID=CDS.33.19.CDS;Parent=CDS.33.19.mRNA
+hdKeima570	CPT_ShineFind	Shine_Dalgarno_sequence	279	282	.	+	.	ID=CDS.33.19.rbs-0;Parent=CDS.33.19
 ##gff-version 3
 ##sequence-region hmAzami-Green 1 690
 hmAzami-Green	cpt.fixModel	gene	10	690	.	+	.	ID=CDS.19.1
@@ -966,20 +966,20 @@ hmKeima-Red	cpt.fixModel	gene	10	678	.	+	.	ID=CDS.125.1
 hmKeima-Red	cpt.fixModel	mRNA	10	678	.	+	.	ID=CDS.125.1.mRNA;Parent=CDS.125.1
 hmKeima-Red	getOrfsOrCds	CDS	10	678	.	+	0	ID=CDS.125.1.CDS;Parent=CDS.125.1.mRNA
 hmKeima-Red	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.125.1.rbs-0;Parent=CDS.125.1
-hmKeima-Red	cpt.fixModel	gene	289	678	.	+	.	ID=CDS.125.14
-hmKeima-Red	cpt.fixModel	mRNA	289	678	.	+	.	ID=CDS.125.14.mRNA;Parent=CDS.125.14
-hmKeima-Red	getOrfsOrCds	CDS	289	678	.	+	0	ID=CDS.125.14.CDS;Parent=CDS.125.14.mRNA
-hmKeima-Red	CPT_ShineFind	Shine_Dalgarno_sequence	279	282	.	+	.	ID=CDS.125.14.rbs-0;Parent=CDS.125.14
+hmKeima-Red	cpt.fixModel	gene	289	678	.	+	.	ID=CDS.125.15
+hmKeima-Red	cpt.fixModel	mRNA	289	678	.	+	.	ID=CDS.125.15.mRNA;Parent=CDS.125.15
+hmKeima-Red	getOrfsOrCds	CDS	289	678	.	+	0	ID=CDS.125.15.CDS;Parent=CDS.125.15.mRNA
+hmKeima-Red	CPT_ShineFind	Shine_Dalgarno_sequence	279	282	.	+	.	ID=CDS.125.15.rbs-0;Parent=CDS.125.15
 ##gff-version 3
 ##sequence-region hmKeima8.5 1 678
 hmKeima8.5	cpt.fixModel	gene	10	678	.	+	.	ID=CDS.106.1
 hmKeima8.5	cpt.fixModel	mRNA	10	678	.	+	.	ID=CDS.106.1.mRNA;Parent=CDS.106.1
 hmKeima8.5	getOrfsOrCds	CDS	10	678	.	+	0	ID=CDS.106.1.CDS;Parent=CDS.106.1.mRNA
 hmKeima8.5	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.106.1.rbs-0;Parent=CDS.106.1
-hmKeima8.5	cpt.fixModel	gene	289	678	.	+	.	ID=CDS.106.14
-hmKeima8.5	cpt.fixModel	mRNA	289	678	.	+	.	ID=CDS.106.14.mRNA;Parent=CDS.106.14
-hmKeima8.5	getOrfsOrCds	CDS	289	678	.	+	0	ID=CDS.106.14.CDS;Parent=CDS.106.14.mRNA
-hmKeima8.5	CPT_ShineFind	Shine_Dalgarno_sequence	278	281	.	+	.	ID=CDS.106.14.rbs-0;Parent=CDS.106.14
+hmKeima8.5	cpt.fixModel	gene	289	678	.	+	.	ID=CDS.106.15
+hmKeima8.5	cpt.fixModel	mRNA	289	678	.	+	.	ID=CDS.106.15.mRNA;Parent=CDS.106.15
+hmKeima8.5	getOrfsOrCds	CDS	289	678	.	+	0	ID=CDS.106.15.CDS;Parent=CDS.106.15.mRNA
+hmKeima8.5	CPT_ShineFind	Shine_Dalgarno_sequence	278	281	.	+	.	ID=CDS.106.15.rbs-0;Parent=CDS.106.15
 ##gff-version 3
 ##sequence-region hmKikGR1 1 711
 hmKikGR1	cpt.fixModel	gene	10	711	.	+	.	ID=CDS.143.1
@@ -1068,10 +1068,10 @@ mApple	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.138.1
 mApple	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.138.1.mRNA;Parent=CDS.138.1
 mApple	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.138.1.CDS;Parent=CDS.138.1.mRNA
 mApple	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.138.1.rbs-0;Parent=CDS.138.1
-mApple	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.138.17
-mApple	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.138.17.mRNA;Parent=CDS.138.17
-mApple	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.138.17.CDS;Parent=CDS.138.17.mRNA
-mApple	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.138.17.rbs-0;Parent=CDS.138.17
+mApple	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.138.18
+mApple	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.138.18.mRNA;Parent=CDS.138.18
+mApple	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.138.18.CDS;Parent=CDS.138.18.mRNA
+mApple	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.138.18.rbs-0;Parent=CDS.138.18
 ##gff-version 3
 ##sequence-region mAzami-Green 1 690
 mAzami-Green	cpt.fixModel	gene	10	690	.	+	.	ID=CDS.10.1
@@ -1108,20 +1108,20 @@ mCherry	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.17.1
 mCherry	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.17.1.mRNA;Parent=CDS.17.1
 mCherry	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.17.1.CDS;Parent=CDS.17.1.mRNA
 mCherry	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.17.1.rbs-0;Parent=CDS.17.1
-mCherry	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.17.17
-mCherry	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.17.17.mRNA;Parent=CDS.17.17
-mCherry	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.17.17.CDS;Parent=CDS.17.17.mRNA
-mCherry	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.17.17.rbs-0;Parent=CDS.17.17
+mCherry	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.17.18
+mCherry	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.17.18.mRNA;Parent=CDS.17.18
+mCherry	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.17.18.CDS;Parent=CDS.17.18.mRNA
+mCherry	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.17.18.rbs-0;Parent=CDS.17.18
 ##gff-version 3
 ##sequence-region mCherry2 1 720
 mCherry2	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.140.1
 mCherry2	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.140.1.mRNA;Parent=CDS.140.1
 mCherry2	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.140.1.CDS;Parent=CDS.140.1.mRNA
 mCherry2	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.140.1.rbs-0;Parent=CDS.140.1
-mCherry2	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.140.17
-mCherry2	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.140.17.mRNA;Parent=CDS.140.17
-mCherry2	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.140.17.CDS;Parent=CDS.140.17.mRNA
-mCherry2	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.140.17.rbs-0;Parent=CDS.140.17
+mCherry2	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.140.18
+mCherry2	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.140.18.mRNA;Parent=CDS.140.18
+mCherry2	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.140.18.CDS;Parent=CDS.140.18.mRNA
+mCherry2	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.140.18.rbs-0;Parent=CDS.140.18
 ##gff-version 3
 ##sequence-region mClavGR2 1 723
 mClavGR2	cpt.fixModel	gene	10	723	.	+	.	ID=CDS.159.1
@@ -1228,14 +1228,14 @@ mHoneydew	cpt.fixModel	gene	10	708	.	+	.	ID=CDS.121.1
 mHoneydew	cpt.fixModel	mRNA	10	708	.	+	.	ID=CDS.121.1.mRNA;Parent=CDS.121.1
 mHoneydew	getOrfsOrCds	CDS	10	708	.	+	0	ID=CDS.121.1.CDS;Parent=CDS.121.1.mRNA
 mHoneydew	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.121.1.rbs-0;Parent=CDS.121.1
-mHoneydew	cpt.fixModel	gene	301	708	.	+	.	ID=CDS.121.15
-mHoneydew	cpt.fixModel	mRNA	301	708	.	+	.	ID=CDS.121.15.mRNA;Parent=CDS.121.15
-mHoneydew	getOrfsOrCds	CDS	301	708	.	+	0	ID=CDS.121.15.CDS;Parent=CDS.121.15.mRNA
-mHoneydew	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.121.15.rbs-0;Parent=CDS.121.15
-mHoneydew	cpt.fixModel	gene	499	708	.	+	.	ID=CDS.121.25
-mHoneydew	cpt.fixModel	mRNA	499	708	.	+	.	ID=CDS.121.25.mRNA;Parent=CDS.121.25
-mHoneydew	getOrfsOrCds	CDS	499	708	.	+	0	ID=CDS.121.25.CDS;Parent=CDS.121.25.mRNA
-mHoneydew	CPT_ShineFind	Shine_Dalgarno_sequence	485	487	.	+	.	ID=CDS.121.25.rbs-0;Parent=CDS.121.25
+mHoneydew	cpt.fixModel	gene	301	708	.	+	.	ID=CDS.121.16
+mHoneydew	cpt.fixModel	mRNA	301	708	.	+	.	ID=CDS.121.16.mRNA;Parent=CDS.121.16
+mHoneydew	getOrfsOrCds	CDS	301	708	.	+	0	ID=CDS.121.16.CDS;Parent=CDS.121.16.mRNA
+mHoneydew	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.121.16.rbs-0;Parent=CDS.121.16
+mHoneydew	cpt.fixModel	gene	499	708	.	+	.	ID=CDS.121.26
+mHoneydew	cpt.fixModel	mRNA	499	708	.	+	.	ID=CDS.121.26.mRNA;Parent=CDS.121.26
+mHoneydew	getOrfsOrCds	CDS	499	708	.	+	0	ID=CDS.121.26.CDS;Parent=CDS.121.26.mRNA
+mHoneydew	CPT_ShineFind	Shine_Dalgarno_sequence	485	487	.	+	.	ID=CDS.121.26.rbs-0;Parent=CDS.121.26
 ##gff-version 3
 ##sequence-region mIFP 1 972
 mIFP	cpt.fixModel	gene	10	972	.	+	.	ID=CDS.53.1
@@ -1354,14 +1354,14 @@ mNectarine	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.7.1
 mNectarine	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.7.1.mRNA;Parent=CDS.7.1
 mNectarine	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.7.1.CDS;Parent=CDS.7.1.mRNA
 mNectarine	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.7.1.rbs-0;Parent=CDS.7.1
-mNectarine	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.7.16
-mNectarine	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.7.16.mRNA;Parent=CDS.7.16
-mNectarine	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.7.16.CDS;Parent=CDS.7.16.mRNA
-mNectarine	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.7.16.rbs-0;Parent=CDS.7.16
-mNectarine	cpt.fixModel	gene	508	720	.	+	.	ID=CDS.7.26
-mNectarine	cpt.fixModel	mRNA	508	720	.	+	.	ID=CDS.7.26.mRNA;Parent=CDS.7.26
-mNectarine	getOrfsOrCds	CDS	508	720	.	+	0	ID=CDS.7.26.CDS;Parent=CDS.7.26.mRNA
-mNectarine	CPT_ShineFind	Shine_Dalgarno_sequence	497	499	.	+	.	ID=CDS.7.26.rbs-0;Parent=CDS.7.26
+mNectarine	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.7.17
+mNectarine	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.7.17.mRNA;Parent=CDS.7.17
+mNectarine	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.7.17.CDS;Parent=CDS.7.17.mRNA
+mNectarine	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.7.17.rbs-0;Parent=CDS.7.17
+mNectarine	cpt.fixModel	gene	508	720	.	+	.	ID=CDS.7.27
+mNectarine	cpt.fixModel	mRNA	508	720	.	+	.	ID=CDS.7.27.mRNA;Parent=CDS.7.27
+mNectarine	getOrfsOrCds	CDS	508	720	.	+	0	ID=CDS.7.27.CDS;Parent=CDS.7.27.mRNA
+mNectarine	CPT_ShineFind	Shine_Dalgarno_sequence	497	499	.	+	.	ID=CDS.7.27.rbs-0;Parent=CDS.7.27
 ##gff-version 3
 ##sequence-region mNeonGreen 1 720
 mNeonGreen	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.72.1
@@ -1404,28 +1404,28 @@ mOrange	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.52.1
 mOrange	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.52.1.mRNA;Parent=CDS.52.1
 mOrange	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.52.1.CDS;Parent=CDS.52.1.mRNA
 mOrange	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.52.1.rbs-0;Parent=CDS.52.1
-mOrange	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.52.15
-mOrange	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.52.15.mRNA;Parent=CDS.52.15
-mOrange	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.52.15.CDS;Parent=CDS.52.15.mRNA
-mOrange	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.52.15.rbs-0;Parent=CDS.52.15
-mOrange	cpt.fixModel	gene	511	720	.	+	.	ID=CDS.52.25
-mOrange	cpt.fixModel	mRNA	511	720	.	+	.	ID=CDS.52.25.mRNA;Parent=CDS.52.25
-mOrange	getOrfsOrCds	CDS	511	720	.	+	0	ID=CDS.52.25.CDS;Parent=CDS.52.25.mRNA
-mOrange	CPT_ShineFind	Shine_Dalgarno_sequence	497	499	.	+	.	ID=CDS.52.25.rbs-0;Parent=CDS.52.25
+mOrange	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.52.16
+mOrange	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.52.16.mRNA;Parent=CDS.52.16
+mOrange	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.52.16.CDS;Parent=CDS.52.16.mRNA
+mOrange	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.52.16.rbs-0;Parent=CDS.52.16
+mOrange	cpt.fixModel	gene	511	720	.	+	.	ID=CDS.52.26
+mOrange	cpt.fixModel	mRNA	511	720	.	+	.	ID=CDS.52.26.mRNA;Parent=CDS.52.26
+mOrange	getOrfsOrCds	CDS	511	720	.	+	0	ID=CDS.52.26.CDS;Parent=CDS.52.26.mRNA
+mOrange	CPT_ShineFind	Shine_Dalgarno_sequence	497	499	.	+	.	ID=CDS.52.26.rbs-0;Parent=CDS.52.26
 ##gff-version 3
 ##sequence-region mOrange2 1 720
 mOrange2	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.81.1
 mOrange2	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.81.1.mRNA;Parent=CDS.81.1
 mOrange2	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.81.1.CDS;Parent=CDS.81.1.mRNA
 mOrange2	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.81.1.rbs-0;Parent=CDS.81.1
-mOrange2	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.81.15
-mOrange2	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.81.15.mRNA;Parent=CDS.81.15
-mOrange2	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.81.15.CDS;Parent=CDS.81.15.mRNA
-mOrange2	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.81.15.rbs-0;Parent=CDS.81.15
-mOrange2	cpt.fixModel	gene	511	720	.	+	.	ID=CDS.81.26
-mOrange2	cpt.fixModel	mRNA	511	720	.	+	.	ID=CDS.81.26.mRNA;Parent=CDS.81.26
-mOrange2	getOrfsOrCds	CDS	511	720	.	+	0	ID=CDS.81.26.CDS;Parent=CDS.81.26.mRNA
-mOrange2	CPT_ShineFind	Shine_Dalgarno_sequence	497	499	.	+	.	ID=CDS.81.26.rbs-0;Parent=CDS.81.26
+mOrange2	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.81.16
+mOrange2	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.81.16.mRNA;Parent=CDS.81.16
+mOrange2	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.81.16.CDS;Parent=CDS.81.16.mRNA
+mOrange2	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.81.16.rbs-0;Parent=CDS.81.16
+mOrange2	cpt.fixModel	gene	511	720	.	+	.	ID=CDS.81.27
+mOrange2	cpt.fixModel	mRNA	511	720	.	+	.	ID=CDS.81.27.mRNA;Parent=CDS.81.27
+mOrange2	getOrfsOrCds	CDS	511	720	.	+	0	ID=CDS.81.27.CDS;Parent=CDS.81.27.mRNA
+mOrange2	CPT_ShineFind	Shine_Dalgarno_sequence	497	499	.	+	.	ID=CDS.81.27.rbs-0;Parent=CDS.81.27
 ##gff-version 3
 ##sequence-region mPapaya1 1 723
 mPapaya1	cpt.fixModel	gene	10	723	.	+	.	ID=CDS.61.1
@@ -1460,32 +1460,32 @@ mRFP1	cpt.fixModel	gene	10	687	.	+	.	ID=CDS.153.1
 mRFP1	cpt.fixModel	mRNA	10	687	.	+	.	ID=CDS.153.1.mRNA;Parent=CDS.153.1
 mRFP1	getOrfsOrCds	CDS	10	687	.	+	0	ID=CDS.153.1.CDS;Parent=CDS.153.1.mRNA
 mRFP1	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.153.1.rbs-0;Parent=CDS.153.1
-mRFP1	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.153.14
-mRFP1	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.153.14.mRNA;Parent=CDS.153.14
-mRFP1	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.153.14.CDS;Parent=CDS.153.14.mRNA
-mRFP1	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.153.14.rbs-0;Parent=CDS.153.14
-mRFP1	cpt.fixModel	gene	496	687	.	+	.	ID=CDS.153.24
-mRFP1	cpt.fixModel	mRNA	496	687	.	+	.	ID=CDS.153.24.mRNA;Parent=CDS.153.24
-mRFP1	getOrfsOrCds	CDS	496	687	.	+	0	ID=CDS.153.24.CDS;Parent=CDS.153.24.mRNA
-mRFP1	CPT_ShineFind	Shine_Dalgarno_sequence	482	484	.	+	.	ID=CDS.153.24.rbs-0;Parent=CDS.153.24
+mRFP1	cpt.fixModel	gene	298	687	.	+	.	ID=CDS.153.15
+mRFP1	cpt.fixModel	mRNA	298	687	.	+	.	ID=CDS.153.15.mRNA;Parent=CDS.153.15
+mRFP1	getOrfsOrCds	CDS	298	687	.	+	0	ID=CDS.153.15.CDS;Parent=CDS.153.15.mRNA
+mRFP1	CPT_ShineFind	Shine_Dalgarno_sequence	288	291	.	+	.	ID=CDS.153.15.rbs-0;Parent=CDS.153.15
+mRFP1	cpt.fixModel	gene	496	687	.	+	.	ID=CDS.153.25
+mRFP1	cpt.fixModel	mRNA	496	687	.	+	.	ID=CDS.153.25.mRNA;Parent=CDS.153.25
+mRFP1	getOrfsOrCds	CDS	496	687	.	+	0	ID=CDS.153.25.CDS;Parent=CDS.153.25.mRNA
+mRFP1	CPT_ShineFind	Shine_Dalgarno_sequence	482	484	.	+	.	ID=CDS.153.25.rbs-0;Parent=CDS.153.25
 ##gff-version 3
 ##sequence-region mRaspberry 1 690
 mRaspberry	cpt.fixModel	gene	10	690	.	+	.	ID=CDS.55.1
 mRaspberry	cpt.fixModel	mRNA	10	690	.	+	.	ID=CDS.55.1.mRNA;Parent=CDS.55.1
 mRaspberry	getOrfsOrCds	CDS	10	690	.	+	0	ID=CDS.55.1.CDS;Parent=CDS.55.1.mRNA
 mRaspberry	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.55.1.rbs-0;Parent=CDS.55.1
-mRaspberry	cpt.fixModel	gene	301	690	.	+	.	ID=CDS.55.15
-mRaspberry	cpt.fixModel	mRNA	301	690	.	+	.	ID=CDS.55.15.mRNA;Parent=CDS.55.15
-mRaspberry	getOrfsOrCds	CDS	301	690	.	+	0	ID=CDS.55.15.CDS;Parent=CDS.55.15.mRNA
-mRaspberry	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.55.15.rbs-0;Parent=CDS.55.15
-mRaspberry	cpt.fixModel	gene	493	690	.	+	.	ID=CDS.55.24
-mRaspberry	cpt.fixModel	mRNA	493	690	.	+	.	ID=CDS.55.24.mRNA;Parent=CDS.55.24
-mRaspberry	getOrfsOrCds	CDS	493	690	.	+	0	ID=CDS.55.24.CDS;Parent=CDS.55.24.mRNA
-mRaspberry	CPT_ShineFind	Shine_Dalgarno_sequence	485	487	.	+	.	ID=CDS.55.24.rbs-0;Parent=CDS.55.24
-mRaspberry	cpt.fixModel	gene	499	690	.	+	.	ID=CDS.55.25
-mRaspberry	cpt.fixModel	mRNA	499	690	.	+	.	ID=CDS.55.25.mRNA;Parent=CDS.55.25
-mRaspberry	getOrfsOrCds	CDS	499	690	.	+	0	ID=CDS.55.25.CDS;Parent=CDS.55.25.mRNA
+mRaspberry	cpt.fixModel	gene	301	690	.	+	.	ID=CDS.55.16
+mRaspberry	cpt.fixModel	mRNA	301	690	.	+	.	ID=CDS.55.16.mRNA;Parent=CDS.55.16
+mRaspberry	getOrfsOrCds	CDS	301	690	.	+	0	ID=CDS.55.16.CDS;Parent=CDS.55.16.mRNA
+mRaspberry	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.55.16.rbs-0;Parent=CDS.55.16
+mRaspberry	cpt.fixModel	gene	493	690	.	+	.	ID=CDS.55.25
+mRaspberry	cpt.fixModel	mRNA	493	690	.	+	.	ID=CDS.55.25.mRNA;Parent=CDS.55.25
+mRaspberry	getOrfsOrCds	CDS	493	690	.	+	0	ID=CDS.55.25.CDS;Parent=CDS.55.25.mRNA
 mRaspberry	CPT_ShineFind	Shine_Dalgarno_sequence	485	487	.	+	.	ID=CDS.55.25.rbs-0;Parent=CDS.55.25
+mRaspberry	cpt.fixModel	gene	499	690	.	+	.	ID=CDS.55.26
+mRaspberry	cpt.fixModel	mRNA	499	690	.	+	.	ID=CDS.55.26.mRNA;Parent=CDS.55.26
+mRaspberry	getOrfsOrCds	CDS	499	690	.	+	0	ID=CDS.55.26.CDS;Parent=CDS.55.26.mRNA
+mRaspberry	CPT_ShineFind	Shine_Dalgarno_sequence	485	487	.	+	.	ID=CDS.55.26.rbs-0;Parent=CDS.55.26
 ##gff-version 3
 ##sequence-region mRuby 1 693
 mRuby	cpt.fixModel	gene	10	693	.	+	.	ID=CDS.154.1
@@ -1506,24 +1506,24 @@ mRuby2	cpt.fixModel	gene	10	723	.	+	.	ID=CDS.180.1
 mRuby2	cpt.fixModel	mRNA	10	723	.	+	.	ID=CDS.180.1.mRNA;Parent=CDS.180.1
 mRuby2	getOrfsOrCds	CDS	10	723	.	+	0	ID=CDS.180.1.CDS;Parent=CDS.180.1.mRNA
 mRuby2	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.180.1.rbs-0;Parent=CDS.180.1
-mRuby2	cpt.fixModel	gene	127	723	.	+	.	ID=CDS.180.7
-mRuby2	cpt.fixModel	mRNA	127	723	.	+	.	ID=CDS.180.7.mRNA;Parent=CDS.180.7
-mRuby2	getOrfsOrCds	CDS	127	723	.	+	0	ID=CDS.180.7.CDS;Parent=CDS.180.7.mRNA
-mRuby2	CPT_ShineFind	Shine_Dalgarno_sequence	114	116	.	+	.	ID=CDS.180.7.rbs-0;Parent=CDS.180.7
-mRuby2	cpt.fixModel	gene	142	723	.	+	.	ID=CDS.180.8
-mRuby2	cpt.fixModel	mRNA	142	723	.	+	.	ID=CDS.180.8.mRNA;Parent=CDS.180.8
-mRuby2	getOrfsOrCds	CDS	142	723	.	+	0	ID=CDS.180.8.CDS;Parent=CDS.180.8.mRNA
-mRuby2	CPT_ShineFind	Shine_Dalgarno_sequence	129	131	.	+	.	ID=CDS.180.8.rbs-0;Parent=CDS.180.8
+mRuby2	cpt.fixModel	gene	127	723	.	+	.	ID=CDS.180.8
+mRuby2	cpt.fixModel	mRNA	127	723	.	+	.	ID=CDS.180.8.mRNA;Parent=CDS.180.8
+mRuby2	getOrfsOrCds	CDS	127	723	.	+	0	ID=CDS.180.8.CDS;Parent=CDS.180.8.mRNA
+mRuby2	CPT_ShineFind	Shine_Dalgarno_sequence	114	116	.	+	.	ID=CDS.180.8.rbs-0;Parent=CDS.180.8
+mRuby2	cpt.fixModel	gene	142	723	.	+	.	ID=CDS.180.9
+mRuby2	cpt.fixModel	mRNA	142	723	.	+	.	ID=CDS.180.9.mRNA;Parent=CDS.180.9
+mRuby2	getOrfsOrCds	CDS	142	723	.	+	0	ID=CDS.180.9.CDS;Parent=CDS.180.9.mRNA
+mRuby2	CPT_ShineFind	Shine_Dalgarno_sequence	129	131	.	+	.	ID=CDS.180.9.rbs-0;Parent=CDS.180.9
 ##gff-version 3
 ##sequence-region mRuby3 1 723
 mRuby3	cpt.fixModel	gene	10	723	.	+	.	ID=CDS.45.1
 mRuby3	cpt.fixModel	mRNA	10	723	.	+	.	ID=CDS.45.1.mRNA;Parent=CDS.45.1
 mRuby3	getOrfsOrCds	CDS	10	723	.	+	0	ID=CDS.45.1.CDS;Parent=CDS.45.1.mRNA
 mRuby3	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.45.1.rbs-0;Parent=CDS.45.1
-mRuby3	cpt.fixModel	gene	142	723	.	+	.	ID=CDS.45.8
-mRuby3	cpt.fixModel	mRNA	142	723	.	+	.	ID=CDS.45.8.mRNA;Parent=CDS.45.8
-mRuby3	getOrfsOrCds	CDS	142	723	.	+	0	ID=CDS.45.8.CDS;Parent=CDS.45.8.mRNA
-mRuby3	CPT_ShineFind	Shine_Dalgarno_sequence	127	130	.	+	.	ID=CDS.45.8.rbs-0;Parent=CDS.45.8
+mRuby3	cpt.fixModel	gene	142	723	.	+	.	ID=CDS.45.9
+mRuby3	cpt.fixModel	mRNA	142	723	.	+	.	ID=CDS.45.9.mRNA;Parent=CDS.45.9
+mRuby3	getOrfsOrCds	CDS	142	723	.	+	0	ID=CDS.45.9.CDS;Parent=CDS.45.9.mRNA
+mRuby3	CPT_ShineFind	Shine_Dalgarno_sequence	127	130	.	+	.	ID=CDS.45.9.rbs-0;Parent=CDS.45.9
 ##gff-version 3
 ##sequence-region mScarlet 1 708
 mScarlet	cpt.fixModel	gene	10	708	.	+	.	ID=CDS.126.1
@@ -1604,14 +1604,14 @@ mTangerine	cpt.fixModel	gene	10	708	.	+	.	ID=CDS.3.1
 mTangerine	cpt.fixModel	mRNA	10	708	.	+	.	ID=CDS.3.1.mRNA;Parent=CDS.3.1
 mTangerine	getOrfsOrCds	CDS	10	708	.	+	0	ID=CDS.3.1.CDS;Parent=CDS.3.1.mRNA
 mTangerine	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.3.1.rbs-0;Parent=CDS.3.1
-mTangerine	cpt.fixModel	gene	301	708	.	+	.	ID=CDS.3.14
-mTangerine	cpt.fixModel	mRNA	301	708	.	+	.	ID=CDS.3.14.mRNA;Parent=CDS.3.14
-mTangerine	getOrfsOrCds	CDS	301	708	.	+	0	ID=CDS.3.14.CDS;Parent=CDS.3.14.mRNA
-mTangerine	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.3.14.rbs-0;Parent=CDS.3.14
-mTangerine	cpt.fixModel	gene	499	708	.	+	.	ID=CDS.3.24
-mTangerine	cpt.fixModel	mRNA	499	708	.	+	.	ID=CDS.3.24.mRNA;Parent=CDS.3.24
-mTangerine	getOrfsOrCds	CDS	499	708	.	+	0	ID=CDS.3.24.CDS;Parent=CDS.3.24.mRNA
-mTangerine	CPT_ShineFind	Shine_Dalgarno_sequence	485	487	.	+	.	ID=CDS.3.24.rbs-0;Parent=CDS.3.24
+mTangerine	cpt.fixModel	gene	301	708	.	+	.	ID=CDS.3.15
+mTangerine	cpt.fixModel	mRNA	301	708	.	+	.	ID=CDS.3.15.mRNA;Parent=CDS.3.15
+mTangerine	getOrfsOrCds	CDS	301	708	.	+	0	ID=CDS.3.15.CDS;Parent=CDS.3.15.mRNA
+mTangerine	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.3.15.rbs-0;Parent=CDS.3.15
+mTangerine	cpt.fixModel	gene	499	708	.	+	.	ID=CDS.3.25
+mTangerine	cpt.fixModel	mRNA	499	708	.	+	.	ID=CDS.3.25.mRNA;Parent=CDS.3.25
+mTangerine	getOrfsOrCds	CDS	499	708	.	+	0	ID=CDS.3.25.CDS;Parent=CDS.3.25.mRNA
+mTangerine	CPT_ShineFind	Shine_Dalgarno_sequence	485	487	.	+	.	ID=CDS.3.25.rbs-0;Parent=CDS.3.25
 ##gff-version 3
 ##sequence-region mTurquoise 1 729
 mTurquoise	cpt.fixModel	gene	10	729	.	+	.	ID=CDS.183.1
@@ -1700,24 +1700,24 @@ pHTomato	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.85.1
 pHTomato	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.85.1.mRNA;Parent=CDS.85.1
 pHTomato	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.85.1.CDS;Parent=CDS.85.1.mRNA
 pHTomato	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.85.1.rbs-0;Parent=CDS.85.1
-pHTomato	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.85.16
-pHTomato	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.85.16.mRNA;Parent=CDS.85.16
-pHTomato	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.85.16.CDS;Parent=CDS.85.16.mRNA
-pHTomato	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.85.16.rbs-0;Parent=CDS.85.16
-pHTomato	cpt.fixModel	gene	511	720	.	+	.	ID=CDS.85.26
-pHTomato	cpt.fixModel	mRNA	511	720	.	+	.	ID=CDS.85.26.mRNA;Parent=CDS.85.26
-pHTomato	getOrfsOrCds	CDS	511	720	.	+	0	ID=CDS.85.26.CDS;Parent=CDS.85.26.mRNA
-pHTomato	CPT_ShineFind	Shine_Dalgarno_sequence	497	499	.	+	.	ID=CDS.85.26.rbs-0;Parent=CDS.85.26
+pHTomato	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.85.17
+pHTomato	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.85.17.mRNA;Parent=CDS.85.17
+pHTomato	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.85.17.CDS;Parent=CDS.85.17.mRNA
+pHTomato	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.85.17.rbs-0;Parent=CDS.85.17
+pHTomato	cpt.fixModel	gene	511	720	.	+	.	ID=CDS.85.27
+pHTomato	cpt.fixModel	mRNA	511	720	.	+	.	ID=CDS.85.27.mRNA;Parent=CDS.85.27
+pHTomato	getOrfsOrCds	CDS	511	720	.	+	0	ID=CDS.85.27.CDS;Parent=CDS.85.27.mRNA
+pHTomato	CPT_ShineFind	Shine_Dalgarno_sequence	497	499	.	+	.	ID=CDS.85.27.rbs-0;Parent=CDS.85.27
 ##gff-version 3
 ##sequence-region pHuji 1 720
 pHuji	cpt.fixModel	gene	10	720	.	+	.	ID=CDS.28.1
 pHuji	cpt.fixModel	mRNA	10	720	.	+	.	ID=CDS.28.1.mRNA;Parent=CDS.28.1
 pHuji	getOrfsOrCds	CDS	10	720	.	+	0	ID=CDS.28.1.CDS;Parent=CDS.28.1.mRNA
 pHuji	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.28.1.rbs-0;Parent=CDS.28.1
-pHuji	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.28.17
-pHuji	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.28.17.mRNA;Parent=CDS.28.17
-pHuji	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.28.17.CDS;Parent=CDS.28.17.mRNA
-pHuji	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.28.17.rbs-0;Parent=CDS.28.17
+pHuji	cpt.fixModel	gene	313	720	.	+	.	ID=CDS.28.18
+pHuji	cpt.fixModel	mRNA	313	720	.	+	.	ID=CDS.28.18.mRNA;Parent=CDS.28.18
+pHuji	getOrfsOrCds	CDS	313	720	.	+	0	ID=CDS.28.18.CDS;Parent=CDS.28.18.mRNA
+pHuji	CPT_ShineFind	Shine_Dalgarno_sequence	303	306	.	+	.	ID=CDS.28.18.rbs-0;Parent=CDS.28.18
 ##gff-version 3
 ##sequence-region ratiometric_pHluorin 1 726
 ratiometric_pHluorin	cpt.fixModel	gene	10	726	.	+	.	ID=CDS.73.1
@@ -1774,22 +1774,22 @@ tdTomato	cpt.fixModel	gene	10	1440	.	+	.	ID=CDS.77.1
 tdTomato	cpt.fixModel	mRNA	10	1440	.	+	.	ID=CDS.77.1.mRNA;Parent=CDS.77.1
 tdTomato	getOrfsOrCds	CDS	10	1440	.	+	0	ID=CDS.77.1.CDS;Parent=CDS.77.1.mRNA
 tdTomato	CPT_ShineFind	Shine_Dalgarno_sequence	1	4	.	+	.	ID=CDS.77.1.rbs-0;Parent=CDS.77.1
-tdTomato	cpt.fixModel	gene	76	1440	.	+	.	ID=CDS.77.5
-tdTomato	cpt.fixModel	mRNA	76	1440	.	+	.	ID=CDS.77.5.mRNA;Parent=CDS.77.5
-tdTomato	getOrfsOrCds	CDS	76	1440	.	+	0	ID=CDS.77.5.CDS;Parent=CDS.77.5.mRNA
-tdTomato	CPT_ShineFind	Shine_Dalgarno_sequence	66	70	.	+	.	ID=CDS.77.5.rbs-0;Parent=CDS.77.5
-tdTomato	cpt.fixModel	gene	301	1440	.	+	.	ID=CDS.77.15
-tdTomato	cpt.fixModel	mRNA	301	1440	.	+	.	ID=CDS.77.15.mRNA;Parent=CDS.77.15
-tdTomato	getOrfsOrCds	CDS	301	1440	.	+	0	ID=CDS.77.15.CDS;Parent=CDS.77.15.mRNA
-tdTomato	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.77.15.rbs-0;Parent=CDS.77.15
-tdTomato	cpt.fixModel	gene	802	1440	.	+	.	ID=CDS.77.45
-tdTomato	cpt.fixModel	mRNA	802	1440	.	+	.	ID=CDS.77.45.mRNA;Parent=CDS.77.45
-tdTomato	getOrfsOrCds	CDS	802	1440	.	+	0	ID=CDS.77.45.CDS;Parent=CDS.77.45.mRNA
-tdTomato	CPT_ShineFind	Shine_Dalgarno_sequence	792	796	.	+	.	ID=CDS.77.45.rbs-0;Parent=CDS.77.45
-tdTomato	cpt.fixModel	gene	1027	1440	.	+	.	ID=CDS.77.55
-tdTomato	cpt.fixModel	mRNA	1027	1440	.	+	.	ID=CDS.77.55.mRNA;Parent=CDS.77.55
-tdTomato	getOrfsOrCds	CDS	1027	1440	.	+	0	ID=CDS.77.55.CDS;Parent=CDS.77.55.mRNA
-tdTomato	CPT_ShineFind	Shine_Dalgarno_sequence	1017	1020	.	+	.	ID=CDS.77.55.rbs-0;Parent=CDS.77.55
+tdTomato	cpt.fixModel	gene	76	1440	.	+	.	ID=CDS.77.6
+tdTomato	cpt.fixModel	mRNA	76	1440	.	+	.	ID=CDS.77.6.mRNA;Parent=CDS.77.6
+tdTomato	getOrfsOrCds	CDS	76	1440	.	+	0	ID=CDS.77.6.CDS;Parent=CDS.77.6.mRNA
+tdTomato	CPT_ShineFind	Shine_Dalgarno_sequence	66	70	.	+	.	ID=CDS.77.6.rbs-0;Parent=CDS.77.6
+tdTomato	cpt.fixModel	gene	301	1440	.	+	.	ID=CDS.77.16
+tdTomato	cpt.fixModel	mRNA	301	1440	.	+	.	ID=CDS.77.16.mRNA;Parent=CDS.77.16
+tdTomato	getOrfsOrCds	CDS	301	1440	.	+	0	ID=CDS.77.16.CDS;Parent=CDS.77.16.mRNA
+tdTomato	CPT_ShineFind	Shine_Dalgarno_sequence	291	294	.	+	.	ID=CDS.77.16.rbs-0;Parent=CDS.77.16
+tdTomato	cpt.fixModel	gene	802	1440	.	+	.	ID=CDS.77.48
+tdTomato	cpt.fixModel	mRNA	802	1440	.	+	.	ID=CDS.77.48.mRNA;Parent=CDS.77.48
+tdTomato	getOrfsOrCds	CDS	802	1440	.	+	0	ID=CDS.77.48.CDS;Parent=CDS.77.48.mRNA
+tdTomato	CPT_ShineFind	Shine_Dalgarno_sequence	792	796	.	+	.	ID=CDS.77.48.rbs-0;Parent=CDS.77.48
+tdTomato	cpt.fixModel	gene	1027	1440	.	+	.	ID=CDS.77.58
+tdTomato	cpt.fixModel	mRNA	1027	1440	.	+	.	ID=CDS.77.58.mRNA;Parent=CDS.77.58
+tdTomato	getOrfsOrCds	CDS	1027	1440	.	+	0	ID=CDS.77.58.CDS;Parent=CDS.77.58.mRNA
+tdTomato	CPT_ShineFind	Shine_Dalgarno_sequence	1017	1020	.	+	.	ID=CDS.77.58.rbs-0;Parent=CDS.77.58
 ##gff-version 3
 ##sequence-region yeGFP 1 726
 yeGFP	cpt.fixModel	gene	10	726	.	+	.	ID=CDS.48.1
