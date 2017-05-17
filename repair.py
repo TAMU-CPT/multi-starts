@@ -107,9 +107,7 @@ def next_first_frame(start, mod_pos):
 
 def repair(fasta, gff3):
     recs = {}
-    # seqids = {}
     for record in GFF.parse(gff3):
-        # seqids[record.id] = ''
         recs[record.id] = record
 
     seqs = []
